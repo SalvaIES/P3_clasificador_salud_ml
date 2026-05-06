@@ -90,10 +90,10 @@ CSV  →  Preprocesamiento  →  EDA  →  Train/Test Split  →  Modelo  →  M
 
 | Modelo | Accuracy (test) | CV Accuracy (5-fold) |
 |---|---|---|
-| Árbol de Decisión | ~81% | ~84% ± 1.6% |
-| K-Nearest Neighbors (k=7) | ~85% | ~88% ± 2.5% |
+| Árbol de Decisión | ~76% | ~72% ± 1.9% |
+| K-Nearest Neighbors (k=7) | ~73% | ~75% ± 2.5% |
 
-> **Mejor modelo:** K-Nearest Neighbors con k=7
+> **Mejor modelo:** Árbol de Decisión (max_depth=5)
 
 ---
 
