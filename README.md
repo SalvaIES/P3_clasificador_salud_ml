@@ -52,15 +52,18 @@ El script descarga el dataset automáticamente. Si no hay conexión, coloca `dia
 clasificador-salud-ml/
 │
 ├── clasificador_salud.py       # Script principal (pipeline completo)
-├── diabetes.csv                # Dataset (se genera al ejecutar)
+├── diabetes.csv                # Dataset original
+├── requirements.txt            # Dependencias del proyecto
 ├── README.md                   # Este archivo
-├── Memoria_Tecnica_P3_ML.docx  # Memoria técnica del proyecto
 │
-└── graficas/                   # Generadas automáticamente al ejecutar
-    ├── 01_distribuciones.png
-    ├── 02_dispersion_glucosa_edad.png
-    ├── 03_matriz_correlacion.png
-    └── 04_matriz_confusion.png
+├── graficas/                   # Generadas automáticamente al ejecutar
+│   ├── 01_distribuciones.png
+│   ├── 02_dispersion_glucosa_edad.png
+│   ├── 03_matriz_correlacion.png
+│   └── 04_matriz_confusion.png
+│
+└── docs/
+    └── Memoria_Tecnica_Proyecto3_ML.docx
 ```
 
 ---
