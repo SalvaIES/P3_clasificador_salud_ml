@@ -56,8 +56,11 @@ from sklearn.metrics import (
 DATASET_URL = (
     "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
 )
-DATASET_PATH = "diabetes.csv"
-OUTPUT_DIR = "graficas"
+#DATASET_PATH = "diabetes.csv"
+#OUTPUT_DIR = "graficas"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATASET_PATH = os.path.join(BASE_DIR, "diabetes.csv")
+OUTPUT_DIR = os.path.join(BASE_DIR, "graficas")
 RANDOM_STATE = 42
 TEST_SIZE = 0.20       # 80% entrenamiento / 20% prueba
 
