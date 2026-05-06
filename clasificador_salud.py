@@ -397,7 +397,7 @@ def main() -> None:
     entrenar_y_evaluar(df_clean, OUTPUT_DIR)
 
     separador("PIPELINE COMPLETADO ✓")
-    print(f"  Gráficas exportadas en la carpeta: ./{OUTPUT_DIR}/")
+    print(f"  Gráficas exportadas en la carpeta: {OUTPUT_DIR}/")
     print("  Hito 4: sube el código y las gráficas a GitHub antes de la defensa.\n")
 
 
