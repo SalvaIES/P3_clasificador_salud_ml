@@ -11,7 +11,7 @@ Dataset: Pima Indians Diabetes Dataset (descargado automáticamente)
 =============================================================================
 
 Descripción:
-    Este script implementa el ciclo completo de un proyecto de Machine Learning:
+    El script implementa el ciclo completo de un proyecto de Machine Learning:
     1. Ingesta de datos (CSV)
     2. Preprocesamiento (limpieza, nulos, normalización)
     3. Análisis Exploratorio (EDA) con gráficas
@@ -33,8 +33,6 @@ import urllib.request
 
 import numpy as np
 import pandas as pd
-import matplotlib
-matplotlib.use("Agg")                        # backend sin pantalla (para guardar figuras)
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 
@@ -49,6 +47,9 @@ from sklearn.metrics import (
     ConfusionMatrixDisplay,
 )
 
+import matplotlib
+matplotlib.use("Agg")  # backend sin pantalla (para guardar figuras)
+
 
 # ---------------------------------------------------------------------------
 # 1. CONSTANTES Y CONFIGURACIÓN
@@ -56,8 +57,6 @@ from sklearn.metrics import (
 DATASET_URL = (
     "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
 )
-#DATASET_PATH = "diabetes.csv"
-#OUTPUT_DIR = "graficas"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATASET_PATH = os.path.join(BASE_DIR, "diabetes.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "graficas")
