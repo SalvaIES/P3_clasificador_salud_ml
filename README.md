@@ -18,7 +18,7 @@ Aplicación de Machine Learning que predice si un paciente tiene riesgo de diabe
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/clasificador-salud-ml.git
+git clone https://github.com/SalvaIES/clasificador-salud-ml.git
 cd clasificador-salud-ml
 ```
 
@@ -134,7 +134,7 @@ CSV  →  Preprocesamiento  →  EDA  →  Train/Test Split  →  Modelo  →  M
 
 ## 👤 Autor
 
-**[Tu nombre]**  
+**Salvador Martínez Bolinches**  
 CE en Desarrollo de Aplicaciones en Lenguaje Python  
 IES Font de Sant Lluís · 2025–2026
 
